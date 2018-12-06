@@ -1,22 +1,14 @@
 ﻿<Properties StartupConfiguration="{A180ACA7-D4E0-058A-085A-39D54BBA24F1}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/Grapple.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/TileCamera.cs">
     <Files>
       <File FileName="Assets/__Scripts/Tile.cs" Line="32" Column="48" />
-      <File FileName="Assets/__Scripts/Dray.cs" Line="208" Column="33" />
+      <File FileName="Assets/__Scripts/Dray.cs" Line="226" Column="23" />
       <File FileName="Assets/__Scripts/SwordController.cs" Line="2" Column="34" />
       <File FileName="Assets/__Scripts/Enemy.cs" Line="79" Column="43" />
       <File FileName="Assets/__Scripts/Skeletos.cs" Line="29" Column="10" />
       <File FileName="Assets/__Scripts/InRoom.cs" Line="31" Column="6" />
-      <File FileName="Assets/__Scripts/IFacingMover.cs" Line="13" Column="47" />
-      <File FileName="Assets/__Scripts/GridMove.cs" Line="11" Column="46" />
-      <File FileName="Assets/__Scripts/CamFollowDray.cs" Line="41" Column="34" />
-      <File FileName="Assets/__Scripts/IKeyMaster.cs" Line="8" Column="21" />
-      <File FileName="Assets/__Scripts/Gatekeeper.cs" Line="14" Column="5" />
-      <File FileName="Assets/__Scripts/GUIPanel.cs" Line="54" Column="6" />
-      <File FileName="Assets/__Scripts/DamageEffect.cs" Line="9" Column="34" />
-      <File FileName="Assets/__Scripts/PickUp.cs" Line="13" Column="5" />
-      <File FileName="Assets/__Scripts/Grapple.cs" Line="166" Column="30" />
+      <File FileName="Assets/__Scripts/TileCamera.cs" Line="23" Column="66" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
