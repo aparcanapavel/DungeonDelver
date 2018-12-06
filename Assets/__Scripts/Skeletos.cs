@@ -19,14 +19,25 @@ public class Skeletos : Enemy , IFacingMover
         inRm = GetComponent<InRoom>();
     }
 
-    void Update()
+    override protected void Update()
     {
+        base.Update();
+        if (knockback) return;
         if (Time.time >= timeNextDecision)
         {
             DecideDirection();
         }
+       
         rigid.velocity = directions[facing] * speed;
     }
+    //void Update()
+    //{
+    //    if (Time.time >= timeNextDecision)
+    //    {
+    //        DecideDirection();
+    //    }
+    //    rigid.velocity = directions[facing] * speed;
+    //}
 
     void DecideDirection()
     {

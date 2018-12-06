@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Gatekeeper : MonoBehaviour {
-    //————————Locked Door tileNums
+
     const int lockedR = 95;
     const int lockedUR = 81;
     const int lockedUL = 80;
@@ -11,7 +11,6 @@ public class Gatekeeper : MonoBehaviour {
     const int lockedDL = 101;
     const int lockedDR = 102;
 
-    //————————Open Door tileNums
     const int openR = 48;
     const int openUR = 93;
     const int openUL = 92;
@@ -72,9 +71,8 @@ public class Gatekeeper : MonoBehaviour {
                 ti2.SetTile(ti2.x, ti2.y, openDL);
                 break;
             default:
-                return; // Return and avoid key decrement
+                return;
         }
-
         keys.keyCount--;
     }
 }

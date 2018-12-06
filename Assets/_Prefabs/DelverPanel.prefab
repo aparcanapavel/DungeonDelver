@@ -158,6 +158,7 @@ GameObject:
   - component: {fileID: 224000012798845922}
   - component: {fileID: 222000012250226826}
   - component: {fileID: 114000013151634948}
+  - component: {fileID: 114094446134315606}
   m_Layer: 5
   m_Name: DelverPanel
   m_TagString: Untagged
@@ -488,6 +489,21 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
+--- !u!114 &114094446134315606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013282365372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebf3602f7056421c86777ab085721d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dray: {fileID: 0}
+  healthEmpty: {fileID: 0}
+  healthHalf: {fileID: 0}
+  healthFull: {fileID: 0}
 --- !u!222 &222000010592648774
 CanvasRenderer:
   m_ObjectHideFlags: 1
